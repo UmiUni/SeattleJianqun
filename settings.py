@@ -5,6 +5,7 @@ def init():
   global vT
   global usersDict
   global admins 
+  global ADMIN
 
   chatGroups =[
   u'UW西雅图拼车接机',
@@ -41,3 +42,4 @@ def init():
   
   usersDict = {}
   admins = []
+  ADMIN = u'UW西雅图加群小助手'
