@@ -43,6 +43,8 @@ def sendGroupInviteMsg(msg,CurUserName):
       pullMembersMore(msg, settings.chatGroups[y], CurUserName)
       sleep(0.5)
       settings.usersDict[CurUserName] = settings.usersDict[CurUserName] + 1
+    elif(y==99):
+      advertiseQR(CurUserName)
   itchat.send_msg(settings.vT, CurUserName)
   sleep(0.5)
   msgText = msg['Text']
