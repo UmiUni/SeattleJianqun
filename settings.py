@@ -22,7 +22,8 @@ def init():
   u'北美区块链技术交流总群',
   u'Zillow内推面试刷题群',
   u'Amazon内推面试刷题群',
-  u'Microsoft内推面试刷题群'
+  u'Microsoft内推面试刷题群',
+  u'北美股市Trading技术交流总群1'
   ]
 
   v0= u"您好,UW西雅图加群建群小助手为您服务:)\n"
@@ -40,12 +41,13 @@ def init():
   v11= u"回复 10 Zillow内推面试刷题群;\n"
   v12= u"回复 11 Amazon内推面试刷题群;\n"
   v13= u"回复 12 Microsoft内推面试刷题群;\n"
-  v14= u"回复 99 查看【北美加群小助手Jogchat.com】\n微信公众号, 加纽约、硅谷等地群\n"
-  vT =v0+v00+v1+v2+v3+v4+v5+v6+v7+v8+v9+v10+v11+v12+v13+v14
+  v14= u"回复 99 查看【北美加群小助手Jogchat.com】\n微信公众号, 加纽约、硅谷等地群(无次数限制)\n"
+  v15= u"回复 100 加北美股市Trading技术交流总群1(无次数限制)\n"
+  vT =v0+v00+v1+v2+v3+v4+v5+v6+v7+v8+v9+v10+v11+v12+v13+v14+v15
   
   usersDict = {}
   admins = []
-  ADMIN = u'UW西雅图加群小助手'
+  ADMIN = u'西雅图加群助手jogchat.com'
 
 
   save = [
