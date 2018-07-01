@@ -44,7 +44,7 @@ def init():
   v13= u"回复 12 Microsoft内推面试刷题群;\n"
   v14= u"回复 99 查看【北美加群小助手Jogchat.com】\n微信公众号, 加纽约、硅谷等地群(无次数限制)\n"
   v15= u"回复 100 加北美股市Trading技术交流总群1(无次数限制)\n"
-  v16= u"微信自动加群群功能已关，请使用我们的网站[北美加群小助手joghcat.com]加入北美各地区Facebook群组。谢谢😊"
+  v16= u"微信自动加群群功能已关，请使用我们的网站[北美加群小助手joghcat.com]加入北美各地区Facebook群组。谢谢😊\n"
   vT =v0+v00+v1+v2+v3+v4+v5+v6+v7+v8+v9+v10+v11+v12+v13+v14+v15
   
   usersDict = {}
