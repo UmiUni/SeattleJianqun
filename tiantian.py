@@ -35,7 +35,7 @@ def sendGroupInviteMsg(msg,CurUserName):
   msgText = msg['Text']
   itchat.send_msg(settings.vT, CurUserName)
   sleep(0.5)
-  itchat.send_msg(settings.v16, msg['RecommendInfo']['UserName'])
+  itchat.send_msg(settings.v16,  CurUserName)
   sleep(0.5)
   msgText = msg['Text']
 
